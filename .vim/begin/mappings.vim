@@ -23,3 +23,11 @@ nmap <silent> <C-n> :noh<CR>
 noremap gb :Gblam<CR>
 " Git status
 noremap gs :G<CR> 
+
+" Buffer Mappings
+" Close the current and go to last open buffer
+noremap <silent> bc :bd<CR>
+" List the buffers
+noremap <silent> bl :Buffers<CR>
+" Switch between two recent buffers
+noremap <silent> bs :b#<CR>
