@@ -25,8 +25,8 @@ noremap gb :Gblam<CR>
 noremap gs :G<CR> 
 
 " Buffer Mappings
-" Close the current and go to last open buffer
-noremap <silent> bc :bd<CR>
+" Completely close the current and go to last open buffer
+noremap <silent> bc :bw<CR>
 " List the buffers
 noremap <silent> bl :Buffers<CR>
 " Switch between two recent buffers
