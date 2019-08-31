@@ -31,3 +31,7 @@ noremap <silent> bc :bw<CR>
 noremap <silent> bl :Buffers<CR>
 " Switch between two recent buffers
 noremap <silent> bs :b#<CR>
+" Move to next buffer without closing the current buffer
+noremap <silent> <Tab> :bnext<CR>
+" Move to previous buffer without closing the current buffer
+noremap <silent> <S-Tab> :bprevious<CR>
