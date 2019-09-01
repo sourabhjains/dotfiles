@@ -35,3 +35,9 @@ noremap <silent> bs :b#<CR>
 noremap <silent> <Tab> :bnext<CR>
 " Move to previous buffer without closing the current buffer
 noremap <silent> <S-Tab> :bprevious<CR>
+
+" Advance o and shift-o
+" Add a line above the current and do not put me in insert mode
+noremap <silent> go o<ESC>k
+" Add a line below the current and do not put in insert mode
+noremap <silent> gO O<ESC>j
