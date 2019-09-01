@@ -16,6 +16,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'majutsushi/tagbar'
 Plug 'tpope/vim-commentary'
+Plug 'easymotion/vim-easymotion'
 call plug#end()
 
 " Load custom settings
