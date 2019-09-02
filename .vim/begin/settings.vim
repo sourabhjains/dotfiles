@@ -21,6 +21,7 @@ set fillchars=vert:¦
 set spelllang=en
 set foldmethod=indent
 set nocompatible
+set scrolloff=9999
 
 filetype on
 autocmd FileType c,cpp :set cindent
